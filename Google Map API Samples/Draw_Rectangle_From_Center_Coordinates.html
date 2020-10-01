@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Maps</title>
+        <script src="jQuery/jquery-3.4.1.min.js"></script>
+      
+	   <script src="jQuery/GeoRectangle.js"></script>
+       
+     
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
+
+    </head>
+
+    <body>
+	
+	   <br>
+	   <br>
+	   
+  
+<input type="submit" value="Draw Map" onclick="Showmap(); return false;" />
+<br>
+<br>
+<br>
+<select name="pincode" id="pincode">
+  <option value="19.1282743,72.8677092">400093</option>
+  <option value="19.1118641,72.8790282">400059</option>
+  <option value="18.9385352,72.836334">400001</option>
+</select>
+<br>
+<label id="lblCoord1">Coordinates</label>
+<br>
+	   <br>
+ <div id="map_canvas" style="position: absolute;height: 1000px;width: 1000px;"></div>
+	
+		 
+    </body>
+</html>
